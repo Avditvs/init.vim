@@ -9,7 +9,10 @@ Plug 'itchyny/lightline.vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'preservim/nerdcommenter'
 Plug 'tpope/vim-fugitive'
-Plug 'ludovicchabant/vim-gutentags'
+
+if executable('ruby')
+    Plug 'ludovicchabant/vim-gutentags'
+endif
 
 call plug#end()
 
