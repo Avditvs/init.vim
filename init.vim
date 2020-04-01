@@ -10,7 +10,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'preservim/nerdcommenter'
 Plug 'tpope/vim-fugitive'
 
-if executable('ruby')
+if executable('ctags')
     Plug 'ludovicchabant/vim-gutentags'
 endif
 
