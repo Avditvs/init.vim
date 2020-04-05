@@ -70,6 +70,7 @@ set omnifunc=syntaxcomplete#Complete
 set notagrelative       "set fileneme not relative to tag directory
 set tags+=./.git/tags   "set tag path 
 
+
 """"""""""""""""""""""""
 """"""""Searching"""""""
 """"""""""""""""""""""""
@@ -87,16 +88,18 @@ let mapleader=","
 
 inoremap " ""<left>
 inoremap ' ''<left>
-"inoremap ( ()<left>
-"inoremap [ []<left>
-"inoremap { {}<left>
 nnoremap <S-Tab> :YcmCompleter GetDoc<CR><C-w><up>
 inoremap <S-Tab> :YcmCompleter GetDoc<CR><C-w><up>
 
-nnoremap <C-left> <C-w><left>
-nnoremap <C-right> <C-w><right>
-nnoremap <C-down> <C-w><down>
-nnoremap <C-up> <C-w><up>
+nnoremap <left> <Nop>
+nnoremap <right> <Nop>
+nnoremap <up> <Nop>
+nnoremap <down> <Nop>
+
+inoremap <left> <Nop>
+inoremap <right> <Nop>
+inoremap <up> <Nop>
+inoremap <down> <Nop>
 
 nnoremap <F8> :Black<CR>
 
