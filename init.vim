@@ -50,6 +50,7 @@ set showcmd         "show command at bottom
 set laststatus=2    "always show status bar
 set noshowmode      "don't show current mode
 set cursorline      "highlight current line
+set scrolloff=2     "always keep lines above and under cursor
 
 """"""""""""""""""""""""
 """""""Utilities""""""""
