@@ -46,6 +46,7 @@ set shiftwidth=4    "set autoindent size
 set softtabstop=4   "number of spaces inserted when TAB is hit
 set expandtab       "tabs are spaces
 set relativenumber  "show relative line numbers
+set number          "show line number
 set showcmd         "show command at bottom
 set laststatus=2    "always show status bar
 set noshowmode      "don't show current mode
